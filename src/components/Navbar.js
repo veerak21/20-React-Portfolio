@@ -24,6 +24,7 @@ function Nav(props) {
                     <a
                         href="#about"
                         onClick={() => handleTabChange('About')}
+
                         // Check to see if the currentTab is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                         className={currentTab === 'About' ? 'nav-link active' : 'nav-link'}
                     >

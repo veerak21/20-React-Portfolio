@@ -30,7 +30,8 @@ function Header(props) {
 
                     <h2>Welcome</h2>
                     <p>
-                        Welcome to Veera K. Pagadala's portfolio page built with React.
+                        Hello, I am Veera. Welcome to my portfolio
+                        (built with React). Here, you can find a small sample of the projects that I worked on during the Web Developer course.
                     </p>
                 </div>
             </section>
