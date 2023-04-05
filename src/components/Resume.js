@@ -13,7 +13,7 @@ function Resume() {
                 <div className="flex-row">
                     <div className="download-info">
                         <div className="download-text">
-                            <h3>Download my {""}<a href={myResume} > Resume
+                            <h3>Download my {""}<a href={myResume} className="download" download > Resume
 
                             </a>
                             </h3>
