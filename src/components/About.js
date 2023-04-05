@@ -3,11 +3,11 @@ import profileImg from "../assets/profile.jpg";
 function About() {
     return (
         <section id="about-me" className="my-5 intro">
-            {/* <div class="flex-row">
+            <div class="flex-row">
                 <h1 id="about" className="section-title">
                     About Me
                 </h1>
-            </div> */}
+            </div>
             <div className="flex-row">
                 <div class="intro-info">
                     <div class="intro-img">

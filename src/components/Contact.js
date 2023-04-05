@@ -53,7 +53,7 @@ function Contact() {
     return (
         <section id="contact-me" className="contact">
             <div className="flex-row">
-                <h2 className="section-title secondary-border">Contact</h2>
+                <h2 className="section-title secondary-border">Contact Me</h2>
             </div>
 
             <div className="contact-info">
@@ -61,10 +61,11 @@ function Contact() {
 
                 {/* contact form section  */}
                 <div className="contact-form">
-                    <h3>Contact Me</h3>
+                    {/* <h3>Contact Me</h3> */}
                     <form className="form">
                         {/* Name */}
-                        <label for="contact-name"> Name</label>
+                        {/* <label for="contact-name"> Name</label> */}
+                        <h4>Name</h4>
                         <input
                             value={userName}
                             name="userName"
@@ -75,7 +76,8 @@ function Contact() {
                         />
 
                         {/* Email */}
-                        <label for="contact-email">Email</label>
+                        {/* <label for="contact-email">Email</label> */}
+                        <h4>Email</h4>
                         <input
                             value={email}
                             name="email"
@@ -86,7 +88,8 @@ function Contact() {
                         />
 
                         {/* Message */}
-                        <label for="contact-message">Message</label>
+                        {/* <label for="contact-message">Message</label> */}
+                        <h4>Message</h4>
                         <textarea
                             value={message}
                             name="message"

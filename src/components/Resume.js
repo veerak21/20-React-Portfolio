@@ -13,14 +13,15 @@ function Resume() {
                 <div className="flex-row">
                     <div className="download-info">
                         <div className="download-text">
-                            <a href={myResume} className="download-logo" download> Download myResume
+                            <h3>Download my {""}<a href={myResume} > Resume
 
                             </a>
+                            </h3>
 
                         </div>
                     </div>
                 </div>
-            </section>
+            </section >
 
             <section id="home-page-body" className="resume-body">
                 <div className="article column1">
@@ -71,7 +72,7 @@ function Resume() {
                     </p>
                 </div>
             </section>
-        </div>
+        </div >
     );
 }
 

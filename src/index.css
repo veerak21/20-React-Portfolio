@@ -113,8 +113,7 @@ header nav ul li a:hover {
 
 /* Hero Style Start */
 .hero {
-  /* background-image: url("../src/assets/img1.png");
-  background-size: cover; */
+
   background-position: center;
   display: flex;
   justify-content: center;
@@ -194,7 +193,7 @@ header nav ul li a:hover {
 
 /* CONTACT ME STYLES START */
 #contact-me {
-  /* margin-top: 5px; */
+  margin-top: 5px;
   background: #75BFB2;
 }
 
@@ -213,13 +212,10 @@ header nav ul li a:hover {
 }
 
 .contact-form {
-  padding-right: 10%;
+  padding-right: 40%;
 }
 
-.contact-form button:hover {
-  color: #F2E3D5;
-  background: #39a6b2;
-}
+
 
 .contact-form input,
 .contact-form textarea {
@@ -252,9 +248,11 @@ header nav ul li a:hover {
   padding: 15px 0;
   font-size: 25px;
   border-radius: 10px;
+}
 
-
-
+.contact-form button:hover {
+  color: #F2E3D5;
+  background: #39a6b2;
 }
 
 .contact-info>* {
@@ -277,24 +275,24 @@ header nav ul li a:hover {
   font-size: 32px;
 }
 
-.contact-info p,
-.contact-info address {
-  margin: 20px 0;
+.contact-info p {
+  margin-bottom: auto;
   line-height: 1.5;
   font-size: 25px;
   font-style: normal;
+  vertical-align: bottom;
 
 
 }
 
-#contact-list {
+/* #contact-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
   list-style-type: none;
-}
+} */
 
-.contact-info a {
+/* .contact-info a {
   color: #0E5259;
   display: inline;
 }
@@ -302,7 +300,7 @@ header nav ul li a:hover {
 .contact-info a:hover {
   color: #ACF2E5;
   transition: .5s ease;
-}
+} */
 
 /*end "Contact me" styles*/
 
@@ -409,14 +407,14 @@ header nav ul li a:hover {
 
 /*Resume section*/
 
-.download-intro p {
+/* .download-intro p {
   line-height: 1.7;
-  color: #0E5259;
+  color: #590e31;
   width: 95%;
   font-size: 30px;
   margin: 0 auto;
   justify-content: center;
-}
+} */
 
 .resume-body {
   display: flex;
@@ -450,7 +448,7 @@ header nav ul li a:hover {
 .article {
   margin: 10px;
   margin-bottom: 1em;
-  background-color: #B4D9CB;
+  background-color: #023047;
 }
 
 
@@ -467,7 +465,7 @@ header nav ul li a:hover {
   width: 50%;
 }
 
-.download-logo {
+/* .download-logo {
   cursor: pointer;
   list-style: none;
   font-size: 40px;
@@ -479,7 +477,7 @@ header nav ul li a:hover {
   color: #328C83;
   opacity: 0.5;
   transition: .5s ease;
-}
+} */
 
 
 
@@ -501,13 +499,13 @@ header nav ul li a:hover {
 } */
 
 .column-title {
-  color: #285950;
+  color: #8ecae6;
   font-size: 25px;
   font-weight: bold;
 }
 
 .column-text {
-  color: #285950;
+  color: #fff;
   font-size: 20px;
   padding: 5px;
 
@@ -623,9 +621,9 @@ footer .logo:hover {
   border-color: #D5F2EA;
 }
 
-label {
+/* label {
   font-size: 25px;
-}
+} */
 
 /* Extra styling
 .flex-row {
