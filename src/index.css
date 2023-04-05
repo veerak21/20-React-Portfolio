@@ -194,16 +194,17 @@ header nav ul li a:hover {
 /* CONTACT ME STYLES START */
 #contact-me {
   margin-top: 5px;
-  background: #75BFB2;
+  background: #0096c7;
 }
 
 #contact-me h2 {
-  color: #0E5259;
+  color: #edede9;
 }
 
+/* 
 .contact h2 {
-  color: #F2E3D5;
-}
+  color: #edede9;
+} */
 
 .contact-info {
   display: flex;
@@ -212,7 +213,7 @@ header nav ul li a:hover {
 }
 
 .contact-form {
-  padding-right: 40%;
+  padding-right: 50%;
 }
 
 
@@ -240,19 +241,19 @@ header nav ul li a:hover {
 }
 
 .contact-form button {
-  width: 100%;
+  width: 40%;
   border: none;
   background: #F2E3D5;
   color: #024e76;
   text-align: center;
-  padding: 15px 0;
+  padding: 10px 0;
   font-size: 25px;
   border-radius: 10px;
 }
 
 .contact-form button:hover {
   color: #F2E3D5;
-  background: #39a6b2;
+  background: #095a63;
 }
 
 .contact-info>* {
@@ -265,15 +266,16 @@ header nav ul li a:hover {
   width: 100px;
   display: inline-block;
   vertical-align: top;
-  text-align: left;
+  text-align: bottom;
   margin: 30px 0 0 60px;
 
 }
 
+/* 
 .contact-info h3 {
   color: #0E5259;
   font-size: 32px;
-}
+} */
 
 .contact-info p {
   margin-bottom: auto;
@@ -350,45 +352,45 @@ header nav ul li a:hover {
 .job-img {
   flex: 1 12%;
   margin-right: 250px;
-  opacity: 0.5;
-  filter: alpha(opacity=40);
+  /* opacity: 0.5; */
+  /* filter: alpha(opacity=40);
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
-  transition: all 1s ease;
-
-
-
+  transition: all 1s ease; */
 }
 
 .job-img img {
   max-width: 200%;
   max-height: 100%;
-  -webkit-transition: all 1s ease;
+  /* -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -o-transition: all 1s ease;
   -ms-transition: all 1s ease;
-  transition: all 1s ease;
+  transition: all 1s ease; */
 }
 
-.job-img:hover {
+
+.job-img-logo:hover {
+  cursor: pointer;
   opacity: 1.0;
-  /*    transition: .5s ease;*/
+  transition: .5s ease;
   filter: alpha(opacity=100);
   transform: scale(1.01);
+  color: beige;
 }
 
-.job-img img:hover {
-  /*    transition: .5s ease-in-out;*/
-  border: 5px solid #ACF2E5;
+/* .job-img img:hover { */
+/*    transition: .5s ease-in-out;*/
+/* border: 5px solid #ACF2E5;
   transform: scale(1.1);
 }
 
 .job-img img:hover::after {
   transition: .5s ease;
 
-}
+} */
 
 .job-text {
   flex: 12;
@@ -406,15 +408,6 @@ header nav ul li a:hover {
 
 
 /*Resume section*/
-
-/* .download-intro p {
-  line-height: 1.7;
-  color: #590e31;
-  width: 95%;
-  font-size: 30px;
-  margin: 0 auto;
-  justify-content: center;
-} */
 
 .resume-body {
   display: flex;
@@ -502,6 +495,7 @@ header nav ul li a:hover {
   color: #8ecae6;
   font-size: 25px;
   font-weight: bold;
+  padding-top: 10px;
 }
 
 .column-text {

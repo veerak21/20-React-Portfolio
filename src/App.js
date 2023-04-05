@@ -5,11 +5,16 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
-import { Helmet } from "react-helmet";
+// import { Helmet } from 'react-helmet-async';
+import { HelmetProvider } from 'react-helmet-async';
+
+
 import './App.css';
 
 function App() {
-  const [currentTab, handleTabChange] = useState("about");
+  const [currentTab, handleTabChange] = useState("About");
+  const helmetContext = {};
+
 
   // This method is checking to see what the value of `currentTab` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderTab = () => {
@@ -25,21 +30,26 @@ function App() {
     if (currentTab === "Resume") {
       return <Resume />;
     }
-    return <About />;
+    // return <About />;
   };
 
   return (
     <>
-      <Helmet>
-        <title>VeeraK. Pagadala's Portfolio | {currentTab} </title>
-      </Helmet>
-      ;
-      <Header
-        currentTab={currentTab}
-        handleTabChange={handleTabChange}
-      ></Header>
-      <main>{renderTab()}</main>
-      <Footer></Footer>
+      {/* <Helmet>
+        <title>VeeraK. Pagadala's Portfolio |  </title>
+        <meta name="description" content="From Helmet"></meta>
+
+      </Helmet> */}
+      <HelmetProvider context={helmetContext}>
+
+
+        <Header
+          currentTab={currentTab}
+          handleTabChange={handleTabChange}
+        ></Header>
+        <main>{renderTab()}</main>
+        <Footer></Footer>
+      </HelmetProvider>
     </>
   );
 }

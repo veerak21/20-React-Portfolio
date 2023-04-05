@@ -1,5 +1,5 @@
 import React from "react";
-import { pdf } from "react-pdf";
+// import { pdf } from "react-pdf";
 import myResume from "../assets/files/Veera's CV.pdf";
 
 

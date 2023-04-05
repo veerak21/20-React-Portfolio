@@ -99,7 +99,7 @@ function Contact() {
                             placeholder="Your Message"
                         />
                         <button type="button" onClick={handleFormSubmit}>
-                            Submit
+                            <h4>Submit</h4>
                         </button>
                     </form>
                 </div>
