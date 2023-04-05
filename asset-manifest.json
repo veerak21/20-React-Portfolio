@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/veerak21/20-React-Portfolio/static/css/main.466fffd4.css",
-    "main.js": "/veerak21/20-React-Portfolio/static/js/main.335f8dcf.js",
-    "static/js/787.b75d5ff3.chunk.js": "/veerak21/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js",
-    "static/media/world vacation.png": "/veerak21/20-React-Portfolio/static/media/world vacation.5a800d25dfa9e77c5b3d.png",
-    "static/media/weather dashboard.png": "/veerak21/20-React-Portfolio/static/media/weather dashboard.7148a8193d5c4d078a3f.png",
-    "static/media/workday planner.png": "/veerak21/20-React-Portfolio/static/media/workday planner.6addc4bd6b2500e07c56.png",
-    "static/media/teamprofile generator.png": "/veerak21/20-React-Portfolio/static/media/teamprofile generator.7ab4b6b955b2f0db82de.png",
-    "static/media/coding quiz.png": "/veerak21/20-React-Portfolio/static/media/coding quiz.c1c44ee3fa9f66c9cfea.png",
-    "static/media/profile.jpg": "/veerak21/20-React-Portfolio/static/media/profile.4dff6d38b5728ddfbf8f.jpg",
-    "static/media/Veera's CV.pdf": "/veerak21/20-React-Portfolio/static/media/Veera's CV.83a070e6bfbebca312bc.pdf",
-    "static/media/note taker.png": "/veerak21/20-React-Portfolio/static/media/note taker.8ad3ecd8f3dafa814a9a.png",
-    "static/media/pwd generator.png": "/veerak21/20-React-Portfolio/static/media/pwd generator.5f5d4842bd78349b68d9.png",
-    "static/media/text editor pwa.png": "/veerak21/20-React-Portfolio/static/media/text editor pwa.0a2692429add3ed25e87.png",
-    "index.html": "/veerak21/20-React-Portfolio/index.html",
-    "main.466fffd4.css.map": "/veerak21/20-React-Portfolio/static/css/main.466fffd4.css.map",
-    "main.335f8dcf.js.map": "/veerak21/20-React-Portfolio/static/js/main.335f8dcf.js.map",
-    "787.b75d5ff3.chunk.js.map": "/veerak21/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js.map"
+    "main.css": "/20-React-Portfolio/static/css/main.fd801417.css",
+    "main.js": "/20-React-Portfolio/static/js/main.c50c6df2.js",
+    "static/js/787.b75d5ff3.chunk.js": "/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js",
+    "static/media/world vacation.png": "/20-React-Portfolio/static/media/world vacation.5a800d25dfa9e77c5b3d.png",
+    "static/media/weather dashboard.png": "/20-React-Portfolio/static/media/weather dashboard.7148a8193d5c4d078a3f.png",
+    "static/media/workday planner.png": "/20-React-Portfolio/static/media/workday planner.6addc4bd6b2500e07c56.png",
+    "static/media/teamprofile generator.png": "/20-React-Portfolio/static/media/teamprofile generator.7ab4b6b955b2f0db82de.png",
+    "static/media/coding quiz.png": "/20-React-Portfolio/static/media/coding quiz.c1c44ee3fa9f66c9cfea.png",
+    "static/media/profile.jpg": "/20-React-Portfolio/static/media/profile.4dff6d38b5728ddfbf8f.jpg",
+    "static/media/Veera's CV.pdf": "/20-React-Portfolio/static/media/Veera's CV.83a070e6bfbebca312bc.pdf",
+    "static/media/note taker.png": "/20-React-Portfolio/static/media/note taker.8ad3ecd8f3dafa814a9a.png",
+    "static/media/pwd generator.png": "/20-React-Portfolio/static/media/pwd generator.5f5d4842bd78349b68d9.png",
+    "static/media/text editor pwa.png": "/20-React-Portfolio/static/media/text editor pwa.0a2692429add3ed25e87.png",
+    "index.html": "/20-React-Portfolio/index.html",
+    "main.fd801417.css.map": "/20-React-Portfolio/static/css/main.fd801417.css.map",
+    "main.c50c6df2.js.map": "/20-React-Portfolio/static/js/main.c50c6df2.js.map",
+    "787.b75d5ff3.chunk.js.map": "/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.466fffd4.css",
-    "static/js/main.335f8dcf.js"
+    "static/css/main.fd801417.css",
+    "static/js/main.c50c6df2.js"
   ]
 }
