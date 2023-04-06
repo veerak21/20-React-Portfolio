@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/20-React-Portfolio/static/css/main.fd801417.css",
-    "main.js": "/20-React-Portfolio/static/js/main.c50c6df2.js",
+    "main.css": "/20-React-Portfolio/static/css/main.957f3571.css",
+    "main.js": "/20-React-Portfolio/static/js/main.fd3a309b.js",
     "static/js/787.b75d5ff3.chunk.js": "/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js",
     "static/media/world vacation.png": "/20-React-Portfolio/static/media/world vacation.5a800d25dfa9e77c5b3d.png",
+    "static/media/BG.jpg": "/20-React-Portfolio/static/media/BG.ca775af0ef727edbd466.jpg",
     "static/media/weather dashboard.png": "/20-React-Portfolio/static/media/weather dashboard.7148a8193d5c4d078a3f.png",
     "static/media/workday planner.png": "/20-React-Portfolio/static/media/workday planner.6addc4bd6b2500e07c56.png",
     "static/media/teamprofile generator.png": "/20-React-Portfolio/static/media/teamprofile generator.7ab4b6b955b2f0db82de.png",
@@ -14,12 +15,12 @@
     "static/media/pwd generator.png": "/20-React-Portfolio/static/media/pwd generator.5f5d4842bd78349b68d9.png",
     "static/media/text editor pwa.png": "/20-React-Portfolio/static/media/text editor pwa.0a2692429add3ed25e87.png",
     "index.html": "/20-React-Portfolio/index.html",
-    "main.fd801417.css.map": "/20-React-Portfolio/static/css/main.fd801417.css.map",
-    "main.c50c6df2.js.map": "/20-React-Portfolio/static/js/main.c50c6df2.js.map",
+    "main.957f3571.css.map": "/20-React-Portfolio/static/css/main.957f3571.css.map",
+    "main.fd3a309b.js.map": "/20-React-Portfolio/static/js/main.fd3a309b.js.map",
     "787.b75d5ff3.chunk.js.map": "/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd801417.css",
-    "static/js/main.c50c6df2.js"
+    "static/css/main.957f3571.css",
+    "static/js/main.fd3a309b.js"
   ]
 }
