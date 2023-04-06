@@ -4,12 +4,10 @@ import { BsGithub } from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { SiGmail } from 'react-icons/si';
 import { BsTwitter } from 'react-icons/bs';
-// import githubImg from "../assets/github.png";
 import { BsStackOverflow } from 'react-icons/bs';
 function Footer() {
     return (
         <footer>
-
             <p>
                 <ul>
                     <a href="https://github.com/veerak21">
@@ -23,12 +21,7 @@ function Footer() {
 
                         </li>
                     </a>
-                    <a href="mailto:pv.kallu@gmail.com">
-                        <li className="logo">
-                            <SiGmail />
 
-                        </li>
-                    </a>
                     <a href="https://twitter.com/VeeraWD">
                         <li className="logo">
                             <BsTwitter />
@@ -38,6 +31,12 @@ function Footer() {
                     <a href="https://stackoverflow.com/users/21568128/veera-k-pagadala">
                         <li className="logo">
                             <BsStackOverflow />
+                        </li>
+                    </a>
+                    <a href="mailto:pv.kallu@gmail.com">
+                        <li className="logo">
+                            <SiGmail />
+
                         </li>
                     </a>
 

@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-:root {
-  /*main colors */
-  --primary-color: #0E5259;
-  --secondary-color: #75BFB2;
-  --tertiary-color: #D5F2EA;
-}
 
 #root {
   min-height: 100vh;
@@ -57,16 +51,8 @@ header h1 {
   margin: 0;
   font-size: 36px;
   color: #f1faee;
-
-  /* text-shadow: 0 0 10px#a8ddce; */
 }
 
-
-/* 
-header a {
-  text-decoration: none;
-  color: #fff
-} */
 
 header nav {
   margin: 7px 0;
@@ -88,7 +74,6 @@ header nav ul li a {
   font-weight: normal;
   font-size: 1.60vw;
   text-decoration: aquamarine;
-  /* text-shadow: 0 0 10px #fff; */
   border-radius: 15px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
@@ -99,7 +84,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  /* background: #0E5259; */
+
   color: #fff;
   border-radius: 15px;
   text-shadow: none;
@@ -116,7 +101,6 @@ header nav ul li a:hover {
   background-image: url("../src/assets/BG.jpg");
   background-size: cover;
   background-position: center;
-  /* opacity: 2%; */
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -133,7 +117,6 @@ header nav ul li a:hover {
   width: 38%;
   text-align: center;
   margin: 1%;
-  /* background: #fff; */
   font-size: 18px;
   line-height: 1.2;
 }
@@ -199,17 +182,17 @@ header nav ul li a:hover {
 /* CONTACT ME STYLES START */
 #contact-me {
   margin-top: 5px;
-  background: #cdb4db;
+  background: #00b4d8;
 }
 
 #contact-me h2 {
   color: #edede9;
 }
 
-/* 
-.contact h2 {
-  color: #edede9;
-} */
+.contact p {
+  margin-left: 5px;
+}
+
 
 .contact-info {
   display: flex;
@@ -221,11 +204,8 @@ header nav ul li a:hover {
   padding-right: 50%;
 }
 
-
-
 .contact-form input,
 .contact-form textarea {
-  /* border: 1px solid #024e76; */
   display: block;
   padding: 7px 15px;
   font-size: 16px;
@@ -233,7 +213,6 @@ header nav ul li a:hover {
   width: 100%;
   margin-bottom: 15px;
   margin-top: 5px;
-  /* border-radius: 10px; */
   background-color: rgba(255, 255, 255, 0.75);
 
 }
@@ -276,38 +255,12 @@ header nav ul li a:hover {
 
 }
 
-/* 
-.contact-info h3 {
-  color: #0E5259;
-  font-size: 32px;
-} */
-
 .contact-info p {
-  /* margin-bottom: auto; */
   line-height: 1.5;
   font-size: 25px;
   font-style: normal;
   vertical-align: bottom;
-
-
 }
-
-/* #contact-list {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  list-style-type: none;
-} */
-
-/* .contact-info a {
-  color: #0E5259;
-  display: inline;
-}
-
-.contact-info a:hover {
-  color: #ACF2E5;
-  transition: .5s ease;
-} */
 
 /*end "Contact me" styles*/
 
@@ -357,13 +310,7 @@ header nav ul li a:hover {
 .job-img {
   flex: 1 12%;
   margin-right: 250px;
-  /* opacity: 0.5; */
-  /* filter: alpha(opacity=40);
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  transition: all 1s ease; */
+
 }
 
 .job-img img {
@@ -376,45 +323,25 @@ header nav ul li a:hover {
   transition: all 1s ease;
 }
 
-/* .job-img a {
-  width: 10px;
-} */
 
-/* 
-.job-img:hover {
-  
+
+
+.job-img img:hover {
+
   opacity: 5.0;
   transition: .5s ease;
   filter: alpha(opacity=100);
-  transform: scale(1.01);
-  color: beige;
-} */
-.job-img ul {
-
-  list-style: none;
-  font-size: 25px;
-  color: #f4f1de;
-  display: inline-block;
-  margin-right: 10px;
-}
-
-.job-img ul li:hover {
-  cursor: pointer;
-  transition: .10s ease-in;
-  color: #edede9;
-  opacity: 0.5;
-}
-
-/* .job-img img:hover { */
-/*    transition: .5s ease-in-out;*/
-/* border: 5px solid #ACF2E5;
   transform: scale(1.1);
+  color: beige;
 }
 
-.job-img img:hover::after {
-  transition: .5s ease;
 
-} */
+.job-img li:hover {
+  cursor: pointer;
+  transition: .5s ease;
+  opacity: 0.5;
+  transform: scale(1.5);
+}
 
 .job-text {
   flex: 12;
@@ -426,9 +353,6 @@ header nav ul li a:hover {
 }
 
 /*End Jobs section*/
-
-
-
 
 
 /*Resume section*/
@@ -460,8 +384,6 @@ header nav ul li a:hover {
   margin-right: 0%;
 }
 
-
-
 .article {
   margin: 10px;
   margin-bottom: 1em;
@@ -476,27 +398,10 @@ header nav ul li a:hover {
 
 .download-text {
   height: auto;
-  /* margin-left: 20%; */
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
 }
-
-/* .download-logo {
-  cursor: pointer;
-  list-style: none;
-  font-size: 40px;
-  color: #0E5259;
-  display: inline-block;
-}
-
-.download-logo:hover {
-  color: #328C83;
-  opacity: 0.5;
-  transition: .5s ease;
-} */
-
-
 
 .download-info {
   flex: 3 70%;
@@ -506,14 +411,6 @@ header nav ul li a:hover {
 
 }
 
-/* .download-text {
-  flex: 12;
-} */
-/* 
-.download-text p {
-  color: #328C83;
-  font-size: 32px;
-} */
 
 .column-title {
   color: #8ecae6;
@@ -536,10 +433,6 @@ header nav ul li a:hover {
 
 
 /*End resume section*/
-
-
-
-
 
 
 /* start styles to <footer> */
@@ -599,18 +492,6 @@ footer a:hover {
   margin-right: 10px;
 }
 
-/* footer img {
-  width: 3%;
-  cursor: pointer;
-  display: inline-block;
-  transition: all 0.25s ease-in;
-  justify-content: space-evenly;
-  margin-right: 10px;
-
-
-
-} */
-
 footer .logo:hover {
   color: #48cae4;
   opacity: 0.5;
@@ -624,30 +505,11 @@ footer .logo:hover {
 .section-title {
   font-size: 48px;
   color: #dcdee2;
-  /* border-bottom: 3px solid; */
-  /* padding-bottom: 20px; */
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
-
-
-/* .primary-border {
-  border-color: #0E5259;
-} */
-
-/* .secondary-border {
-  border-color: #D5F2EA;
-} */
-
-/* label {
-  font-size: 25px;
-} */
-
-/* Extra styling
-.flex-row {
-  display: flex;
-} */
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 
@@ -709,9 +571,7 @@ footer .logo:hover {
 }
 
 @media screen and (max-width: 768px) {
-  /* section {
-    padding: 30px 15px;
-  } */
+
 
   .job h3 {
     flex: 1 100%;

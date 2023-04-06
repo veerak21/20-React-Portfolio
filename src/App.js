@@ -5,7 +5,7 @@ import Contact from "../src/components/Contact";
 import Portfolio from "../src/components/Portfolio";
 import Resume from "../src/components/Resume";
 import Footer from "../src/components/Footer";
-// import { Helmet } from 'react-helmet-async';
+
 import { HelmetProvider } from 'react-helmet-async';
 
 
@@ -30,16 +30,12 @@ function App() {
     if (currentTab === "Resume") {
       return <Resume />;
     }
-    // return <About />;
+
   };
 
   return (
     <>
-      {/* <Helmet>
-        <title>VeeraK. Pagadala's Portfolio |  </title>
-        <meta name="description" content="From Helmet"></meta>
 
-      </Helmet> */}
       <HelmetProvider context={helmetContext}>
 
 

@@ -56,7 +56,7 @@ function Contact() {
                 <h2 className="section-title secondary-border">Contact Me</h2>
             </div>
             {errorMessage && (
-                <div>
+                <div className="my-6 p-3 text-white">
                     <p className="error-text">{errorMessage}</p>
                 </div>
             )}
@@ -66,10 +66,9 @@ function Contact() {
 
                 {/* contact form section  */}
                 <div className="contact-form">
-                    {/* <h3>Contact Me</h3> */}
+
                     <form className="form">
-                        {/* Name */}
-                        {/* <label for="contact-name"> Name</label> */}
+
                         <h4>Name</h4>
                         <input
                             value={userName}
@@ -80,8 +79,7 @@ function Contact() {
                             placeholder="Your Name"
                         />
 
-                        {/* Email */}
-                        {/* <label for="contact-email">Email</label> */}
+
                         <h4>Email</h4>
                         <input
                             value={email}
@@ -92,8 +90,7 @@ function Contact() {
                             placeholder="Your Email"
                         />
 
-                        {/* Message */}
-                        {/* <label for="contact-message">Message</label> */}
+
                         <h4>Message</h4>
                         <textarea
                             value={message}
