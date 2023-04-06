@@ -41,8 +41,11 @@ function Footer() {
                         </li>
                     </a>
 
+
                 </ul>
+
             </p>
+            <p>Powered by React.</p>
         </footer>
     );
 }

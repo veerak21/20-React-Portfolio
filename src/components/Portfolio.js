@@ -7,7 +7,7 @@ import worldVacationImg from "../assets/world vacation.png";
 import textEditorImg from "../assets/text editor pwa.png";
 import codingQuizImg from "../assets/coding quiz.png";
 import teamGeneratorImg from "../assets/teamprofile generator.png"
-import { VscGithubAlt } from 'react-icons/vsc';
+import { FiGithub } from 'react-icons/fi';
 import { GrDeploy } from 'react-icons/gr';
 import { Helmet } from 'react-helmet-async';
 
@@ -22,7 +22,7 @@ function Portfolio() {
             <div>
                 <section id="work" className="jobs">
                     <div className="flex-row">
-                        <h2 className="section-title secondary-border">Work</h2>
+                        <h2 className="section-title ">Work</h2>
                     </div>
 
                     <div className="job">
@@ -37,7 +37,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/weather-dashboard">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://veerak21.github.io/weather-dashboard/">
@@ -70,7 +70,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/pwd-gen">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://veerak21.github.io/pwd-gen/">
@@ -101,7 +101,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/work-day-scheduler">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://veerak21.github.io/work-day-scheduler/">
@@ -133,7 +133,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/Note-Taker">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://intense-chamber-44315.herokuapp.com/">
@@ -165,7 +165,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/Team-Profile-Generator">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://drive.google.com/file/d/1hWt2d4n3LkR9_BW2fPleOkXBIhP_3oMG/view">
@@ -198,7 +198,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/world-vacation">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://veerak21.github.io/world-vacation/">
@@ -230,7 +230,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/timed-coding-quiz">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://veerak21.github.io/timed-coding-quiz/">
@@ -263,7 +263,7 @@ function Portfolio() {
                                 <ul>
                                     <a href="https://github.com/veerak21/19-Text-Editor-PWA">
                                         <li className="logo">
-                                            <VscGithubAlt />
+                                            <FiGithub />
                                         </li>
                                     </a>
                                     <a href="https://stormy-meadow-14463.herokuapp.com/">

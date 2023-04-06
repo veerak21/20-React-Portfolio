@@ -55,6 +55,11 @@ function Contact() {
             <div className="flex-row">
                 <h2 className="section-title secondary-border">Contact Me</h2>
             </div>
+            {errorMessage && (
+                <div>
+                    <p className="error-text">{errorMessage}</p>
+                </div>
+            )}
 
             <div className="contact-info">
 
@@ -103,13 +108,11 @@ function Contact() {
                         </button>
                     </form>
                 </div>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
+
             </div>
+
         </section>
+
     );
 }
 
