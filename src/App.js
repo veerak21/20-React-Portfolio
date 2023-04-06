@@ -12,7 +12,7 @@ import { HelmetProvider } from 'react-helmet-async';
 import './App.css';
 
 function App() {
-  const [currentTab, handleTabChange] = useState("About");
+  const [currentTab, handleTabChange] = useState("React App");
   const helmetContext = {};
 
 
