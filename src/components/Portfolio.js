@@ -1,4 +1,5 @@
 import React from "react";
+import recipeforsuccessImg from "../assets/recipe for success.png";
 import weatherDashboardImg from "../assets/weather dashboard.png";
 import pwdGenImg from "../assets/pwd generator.png";
 import workdayPlannerImg from "../assets/workday planner.png";
@@ -22,6 +23,37 @@ function Portfolio() {
                 <section id="work" className="jobs">
                     <div className="flex-row">
                         <h2 className="section-title ">Work</h2>
+                    </div>
+                    <div className="job">
+                        <div className="job-info">
+                            <div className="job-img">
+                                <ul>
+                                    <a href="https://recipe-for-success.herokuapp.com/" target=" ">
+                                        <img
+                                            src={recipeforsuccessImg}
+                                            className="my-2"
+                                            style={{ width: "100%" }}
+                                            alt=""
+                                        />
+                                    </a>
+
+                                    <a href="https://github.com/AlastairHafield/Recipe-For-Success" target=" ">
+                                        <li className="logo">
+                                            <FiGithub />
+                                        </li>
+                                    </a>
+
+                                </ul>
+
+                            </div>
+                            <div className="job-text">
+                                <h4>Recipe-For-Success</h4>
+                                <p>
+                                    The Recipe for Success (RFS) is a recipe-based application, that enables the food enthusiasts to browse and buy the pay-per-view recipies following their needs. The application is developed using GraphQl, MongoDB and is powered by React. Here, recipeis are catagorized into vegan, vegetarian and several free-from sections to facilitate the user choice. The database will soon be updated with cooking videos for each recipe and crowd-sourced recipies that ehance user experience.
+
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
                     <div className="job">
