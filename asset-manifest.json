@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/20-React-Portfolio/static/css/main.c06459e1.css",
-    "main.js": "/20-React-Portfolio/static/js/main.ff89d9f8.js",
+    "main.js": "/20-React-Portfolio/static/js/main.fa94d5e4.js",
     "static/js/787.b75d5ff3.chunk.js": "/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js",
     "static/media/world vacation.png": "/20-React-Portfolio/static/media/world vacation.5a800d25dfa9e77c5b3d.png",
+    "static/media/recipe for success.png": "/20-React-Portfolio/static/media/recipe for success.16a463871f7dc1876dc4.png",
     "static/media/BG.jpg": "/20-React-Portfolio/static/media/BG.ca775af0ef727edbd466.jpg",
     "static/media/weather dashboard.png": "/20-React-Portfolio/static/media/weather dashboard.7148a8193d5c4d078a3f.png",
     "static/media/workday planner.png": "/20-React-Portfolio/static/media/workday planner.6addc4bd6b2500e07c56.png",
@@ -16,11 +17,11 @@
     "static/media/text editor pwa.png": "/20-React-Portfolio/static/media/text editor pwa.0a2692429add3ed25e87.png",
     "index.html": "/20-React-Portfolio/index.html",
     "main.c06459e1.css.map": "/20-React-Portfolio/static/css/main.c06459e1.css.map",
-    "main.ff89d9f8.js.map": "/20-React-Portfolio/static/js/main.ff89d9f8.js.map",
+    "main.fa94d5e4.js.map": "/20-React-Portfolio/static/js/main.fa94d5e4.js.map",
     "787.b75d5ff3.chunk.js.map": "/20-React-Portfolio/static/js/787.b75d5ff3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c06459e1.css",
-    "static/js/main.ff89d9f8.js"
+    "static/js/main.fa94d5e4.js"
   ]
 }
